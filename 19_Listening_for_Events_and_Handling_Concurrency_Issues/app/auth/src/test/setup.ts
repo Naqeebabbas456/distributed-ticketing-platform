@@ -14,7 +14,7 @@ declare global {
 let mongo: any;
 
 beforeAll(async () => {
-  process.env.JWT_KEY = 'asdf';
+  process.env.JWT_KEY = 'test-jwt-secret-do-not-use-in-production';
   mongo = new MongoMemoryServer();
   const mongoUri = await mongo.getUri();
 

@@ -128,7 +128,7 @@ $ curl \
 
 ```
 
-#HttpOnly_ticketing.dev	FALSE	/	TRUE	0	express:sess	eyJqd3QiOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcFpDSTZJalZsWWpVMk56RmpPV0kwTmpObU1ERmhPVGN5TWprME5TSXNJbVZ0WVdsc0lqb2liV0Z5YkdWNU5rQmxlR0Z0Y0d4bExtTnZiU0lzSW1saGRDSTZNVFU0T0RrME5qY3hObjAuS3ZzV2NLbVN6VmNlWEhrdFFNNnU3cGtxWlFETVU2NC0tMGlPWTlVcE5mQSJ9
+#HttpOnly_ticketing.dev	FALSE	/	TRUE	0	express:sess	<REDACTED_JWT_TOKEN>
 ```
 
 https://www.base64decode.org/
@@ -136,7 +136,7 @@ https://www.base64decode.org/
 decode
 
 ```
-{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlYjU2NzFjOWI0NjNmMDFhOTcyMjk0NSIsImVtYWlsIjoibWFybGV5NkBleGFtcGxlLmNvbSIsImlhdCI6MTU4ODk0NjcxNn0.KvsWcKmSzVceXHktQM6u7pkqZQDMU64--0iOY9UpNfA"}
+<REDACTED_JWT_TOKEN>
 ```
 
 https://jwt.io/
